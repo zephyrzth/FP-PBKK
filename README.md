@@ -8,6 +8,8 @@ Mata kuliah   : Pemrograman Berbasis Kerangka Kerja
 
 Kelas         : E
 
+## Status Pengerjaan
+Dokumentasi belum selesai, web sudah selesai. (Updated on 23/05/2020 21:56)
 
 ## Instalasi
 - Pertama, lakukan clone project ini.
