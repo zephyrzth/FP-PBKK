@@ -10,6 +10,15 @@
         <div class="form-group row">
             <div class="col-md-5">
                 <b style="float: right">:</b>
+                <b>ID Transaksi</b>
+            </div>
+            <div class="col-md-7">{{donasi[0]['transaksi_id']}}</div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group row">
+            <div class="col-md-5">
+                <b style="float: right">:</b>
                 <b>Nama Donatur</b>
             </div>
             <div class="col-md-7">{{donasi[0]['name']}}</div>
