@@ -10,4 +10,4 @@ Kelas         : E
 
 
 ## Implementasi Aplikasi
-Sedang dalam pengerjaan..
+Sedang dalam pengerjaan.., kurang sedikit lagi :)
