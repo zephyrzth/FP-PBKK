@@ -26,7 +26,7 @@
                     {{ namakategori }}, 
                 {% endfor %}</td>
                 <td>{{ row.created_at }}</td>
-                <td><a href="/donasi/show/{{ row.id }}" class="btn btn-success">Detail</a></td>
+                <td><a href="/donasi/detail/{{ row.id }}" class="btn btn-success">Detail</a></td>
             </tr>
             {% endfor %}
         </tbody>

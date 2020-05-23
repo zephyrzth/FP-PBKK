@@ -4,7 +4,7 @@
 <div class="row">
     <div class="col-md-10">
         <h2>Rekapitulasi Per Kategori:</h2>
-        <h2>Kategori {{ kategori_satu['nama_kategori'] }}</h2>
+        <h3 style="font-weight:bold">Kategori {{ kategori_satu['nama_kategori'] }}</h2>
     </div>
     <div class="col-md-2">
         <button type="button"class="btn btn-primary" data-toggle="modal" data-target="#addDonasi">Tambah Donasi</button>

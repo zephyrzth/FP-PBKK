@@ -25,6 +25,13 @@ class DonasiController extends ControllerBase
         $this->view->kategori_bantuans = $kategori_bantuans;
     }
 
+    public function detailAction($transaksiId)
+    {
+        $donasi = $this->db->fetchAll("SELECT * FROM detail_transaksis dt JOIN kategori_bantuans kb ON kb.id = dt.kategori_bantuan_id JOIN transaksis t ON t.id = dt.transaksi_id JOIN users u ON u.id = t.user_id WHERE t.id = ".$transaksiId);
+        // die(print_r($donasi, true));
+        $this->view->donasi = $donasi;
+    }
+
     public function donasiperkategoriAction($kategoriId = 1)
     {
         $countPerKategori = $this->db->fetchAll("SELECT kb.id , kb.nama_kategori, COUNT(*) AS count FROM transaksis t JOIN detail_transaksis dt on t.id = dt.transaksi_id JOIN kategori_bantuans kb on kb.id = dt.kategori_bantuan_id GROUP BY kb.id");
