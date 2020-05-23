@@ -10,4 +10,4 @@ Kelas         : E
 
 
 ## Implementasi Aplikasi
-Sedang dalam pengerjaan.., kurang sedikit lagi :)
+Web sudah selesai, kurang dokumentasi

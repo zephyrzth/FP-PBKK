@@ -9,14 +9,14 @@
         'uri': '/donasi/index',
         'with_auth': true
     ],
+    'Donasi Per Kategori' : [
+        'title': 'Donasi Per Kategori',
+        'uri': '/donasi/donasiperkategori/',
+        'with_auth': true
+    ],
     'about': [
         'title': 'About',
         'uri': '/about/index',
-        'with_auth': false
-    ],
-    'contact': [
-        'title': 'Contact',
-        'uri': '/contact/index',
         'with_auth': false
     ]
 ] %}

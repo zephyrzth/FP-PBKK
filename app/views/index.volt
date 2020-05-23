@@ -10,6 +10,8 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->url->get('img/favicon.ico')?>"/>
         <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+        {{ stylesheet_link('css/Chart.min.css') }}
+        {{ javascript_include('js/Chart.bundle.min.js') }}
     </head>
     <body>
         {{ flash.output() }}

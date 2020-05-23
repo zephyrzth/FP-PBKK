@@ -1,5 +1,6 @@
 <?php
 
+use Phalcon\Mvc\Model\Resultset\Simple as Resultset;
 class Transaksis extends \Phalcon\Mvc\Model
 {
 
